@@ -1,4 +1,0 @@
-"Name","Enabled","OperatingSystem","IPav4Address","LastLogonDate"
-"LON-CL1","True","Windows 10 Enterprise","Microsoft.ActiveDirectory.Management.ADPropertyValueCollection","9/8/2026 9:01:44 AM"
-"LON-SVR1","True","Windows Server 2019 Datacenter Evaluation","Microsoft.ActiveDirectory.Management.ADPropertyValueCollection","9/8/2026 9:01:29 AM"
-"LON-DC1","True","Windows Server 2019 Datacenter Evaluation","Microsoft.ActiveDirectory.Management.ADPropertyValueCollection","9/8/2026 9:00:57 AM"
