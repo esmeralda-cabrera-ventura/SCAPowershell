@@ -1,0 +1,91 @@
+{
+  "Organization": {
+    "InitialPassword": "TEMPORARY PASSWORD PLACEHOLDER",
+    "DisabledUsersOu": "OU=Disabled Users,DC=corp,DC=ventura,DC=local",
+    "ManagedADGroupPrefix": "IAM-",
+    "ManagedEntraGroupPrefix": "IAM-",
+    "ManagedAVDApplicationGroups": [
+      "rg-avd|Finance-Desktop",
+      "rg-avd|Engineering-Desktop",
+      "rg-avd|HR-Desktop"
+    ]
+  },
+  "Departments": {
+    "Finance": {
+      "OuPath": "OU=Finance,OU=Employees,DC=corp,DC=ventura,DC=local",
+      "ADGroups": [
+        "IAM-Finance-Users",
+        "IAM-Finance-SharedDrive"
+      ],
+      "EntraGroups": [
+        "IAM-Finance-M365"
+      ],
+      "IntuneGroups": [
+        "IAM-Intune-Corporate-Standard"
+      ],
+      "AVD": [
+        "rg-avd|Finance-Desktop"
+      ]
+    },
+    "Engineering": {
+      "OuPath": "OU=Engineering,OU=Employees,DC=corp,DC=ventura,DC=local",
+      "ADGroups": [
+        "IAM-Engineering-Users",
+        "IAM-Engineering-SharedDrive"
+      ],
+      "EntraGroups": [
+        "IAM-Engineering-M365"
+      ],
+      "IntuneGroups": [
+        "IAM-Intune-Corporate-Standard"
+      ],
+      "AVD": [
+        "rg-avd|Engineering-Desktop"
+      ]
+    },
+    "Human Resources": {
+      "OuPath": "OU=Human Resources,OU=Employees,DC=corp,DC=ventura,DC=local",
+      "ADGroups": [
+        "IAM-HR-Users",
+        "IAM-HR-SharedDrive"
+      ],
+      "EntraGroups": [
+        "IAM-HR-M365"
+      ],
+      "IntuneGroups": [
+        "IAM-Intune-Corporate-Standard"
+      ],
+      "AVD": [
+        "rg-avd|HR-Desktop"
+      ]
+    }
+  },
+  "Roles": {
+    "Financial Analyst": {
+      "ADGroups": [],
+      "EntraGroups": [
+        "IAM-Finance-PowerBI"
+      ],
+      "IntuneGroups": [],
+      "AVD": []
+    },
+    "Cloud Engineer": {
+      "ADGroups": [],
+      "EntraGroups": [
+        "IAM-Azure-Developers"
+      ],
+      "IntuneGroups": [
+        "IAM-Intune-Engineering"
+      ],
+      "AVD": []
+    },
+    "HR Specialist": {
+      "ADGroups": [],
+      "EntraGroups": [
+        "IAM-HR-Applications"
+      ],
+      "IntuneGroups": [],
+      "AVD": []
+    }
+  }
+}

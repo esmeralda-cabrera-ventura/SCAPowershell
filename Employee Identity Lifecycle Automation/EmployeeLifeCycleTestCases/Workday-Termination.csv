@@ -1,0 +1,2 @@
+EmployeeId,FirstName,LastName,UserPrincipalName,SamAccountName,Department,JobTitle,ManagerUpn,Status,LifecycleEvent,Location,EmploymentType
+10001,Sarah,Johnson,sarah.johnson@corp.ventura.local,sjohnson,Engineering,Cloud Engineer,robert.smith@corp.ventura.local,Terminated,Termination,California,Full-Time

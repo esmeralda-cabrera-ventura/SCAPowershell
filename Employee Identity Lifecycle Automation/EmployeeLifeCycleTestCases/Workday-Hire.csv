@@ -1,0 +1,2 @@
+EmployeeId,FirstName,LastName,UserPrincipalName,SamAccountName,Department,JobTitle,ManagerUpn,Status,LifecycleEvent,Location,EmploymentType
+10001,Sarah,Johnson,sarah.johnson@corp.ventura.local,sjohnson,Finance,Financial Analyst,jennifer.dovorany@corp.ventura.local,Active,Hire,California,Full-Time
